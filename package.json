@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-graphql",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@prisma/client": "2.21.2",
+    "apollo-server-micro": "^2.23.0",
+    "dataloader": "^2.0.0",
+    "graphql": "^15.5.0",
+    "next": "10.1.3",
+    "nexus": "^1.0.0",
+    "pg": "^8.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.5",
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "faker": "^5.5.3",
+    "prisma": "2.21.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
