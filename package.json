@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "ts-node": "ts-node --compiler-options '{\"module\": \"CommonJS\"}'"
   },
   "dependencies": {
     "@prisma/client": "2.21.2",
